@@ -1,0 +1,29 @@
+<div class="header">
+    <div class="container">
+        <nav class="nav">
+            <div class="nav__logo">
+                <img src="assets/img/pokeball__logo.png" alt="">
+                <h1 routerLink="">PokeWorld</h1>
+            </div>
+            <div class="nav__menu" #navMenu>
+                <ul class="nav__list">
+                    <li class="nav__item" routerLink="pokedex">Pokedex</li>
+                    <li class="nav__item" routerLink="map">Maps</li>
+                    <li class="nav__item" routerLink="movie">Movies</li>
+                    <li class="nav__item" routerLink="series">Series</li>
+                    <li class="nav__item" routerLink="games">Games</li>
+                    <div class="theme__container" (click)="toggleTheme()">
+                        <fa-icon class="theme__btn" [icon]="isDarkMode ? faSun : faMoon"></fa-icon>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="nav__toggle" #navToggle>
+        <fa-icon class="theme__btn" [icon]="faBars"></fa-icon>
+    </div>
+    <div class="nav__close" #navClose>
+        <fa-icon class="theme__btn" [icon]="faX"></fa-icon>
+    </div>
+</div>
+<router-outlet></router-outlet>

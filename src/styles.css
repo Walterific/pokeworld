@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* Text Colors */
+    --text-pre: #181825;
+    --text-pre-secondary: #ffffff;
+    --text-pre-secondary-fade: #bdbdbd;
+    --text-pre-no-change: #0F1524;
+    /* Main Colors */
+    --first-color: #FDFDFD;
+    --second-color: #f7e9a0;
+    --button-color: #FACC15;
+    --button-color-secondary: #FCDC3C;
+    --button-color-focused: #CA8A04;
+    --success-color: #43aa8b;
+    --warning-color: #e63946;
+    --pokedex-primary: #DA5654;
+    --pokedex-secondary: #2367B3;
+    --title-color: #181825;
+    --body-color: #f7e9a0;
+    --border-color: #e0e0e0;
+    /* Card/Section Colors */
+    --card-bg: #fff;
+    --card-border: #e0e0e0;
+    --section-bg: #f9c74f;
+    --featured-bg: #0a0e1a;
+    --featured-card-bg: #15192b;
+    --featured-card-border: #23263a;
+    --featured-label: #7ee787;
+    --featured-btn-bg: #1e90ff;
+    --featured-btn-hover-bg: #7ee787;
+    --featured-btn-hover-text: #15192b;
+    --footer-bg: #15192b;
+    --footer-border: #23263a;
+    --footer-site: #ffe066;
+    --footer-link: #7ee787;
+    --footer-meta: #bdbdbd;
+    --footer-social-bg: #23263a;
+    --footer-social-hover-bg: #7ee787;
+    --footer-social-hover-icon: #15192b;
+}
+
+main.dark-theme {
+    /* Dark Theme Overrides */
+    --text-pre: #fff;
+    --text-pre-secondary: #bdbdbd;
+    --text-pre-secondary-fade: #888;
+    --text-pre-no-change: #fff;
+    --first-color: #0F1524;
+    --second-color: #181825;
+    --button-color: #FACC15;
+    --button-color-secondary: #FCDC3C;
+    --button-color-focused: #CA8A04;
+    --success-color: #43aa8b;
+    --warning-color: #e63946;
+    --pokedex-primary: #DA5654;
+    --pokedex-secondary: #2367B3;
+    --title-color: #fff;
+    --body-color: #181825;
+    --border-color: #23263a;
+    --card-bg: #23233b;
+    --card-border: #3a86ff;
+    --section-bg: #181825;
+    --featured-bg: #0a0e1a;
+    --featured-card-bg: #15192b;
+    --featured-card-border: #23263a;
+    --featured-label: #7ee787;
+    --featured-btn-bg: #1e90ff;
+    --featured-btn-hover-bg: #7ee787;
+    --featured-btn-hover-text: #15192b;
+    --footer-bg: #15192b;
+    --footer-border: #23263a;
+    --footer-site: #ffe066;
+    --footer-link: #7ee787;
+    --footer-meta: #bdbdbd;
+    --footer-social-bg: #23263a;
+    --footer-social-hover-bg: #7ee787;
+    --footer-social-hover-icon: #15192b;
+}
+
+.dark-theme {
+    color: var(--container-color);
+}
+
+main {
+    background: var(--second-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
